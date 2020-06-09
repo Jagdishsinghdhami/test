@@ -1,0 +1,45 @@
+.logo-image {
+  width: 200px;
+  height:150px;
+}
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+ul{
+  list-style: none;
+display: flex;
+justify-content: space-around;
+}
+nav{
+  width: 100%;
+}
+.sign-up-page{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-form{
+  text-align: center;
+  margin: 25px;
+}
+.video-page{
+  height: 500px;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.video{
+  text-align: center;
+}
+.crimanal-justice{
+  height: 600px;
+  background-image: url(https://375k2o3v1myg336dqqsj0ke2uk-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/Marketing-Strategy-Cloud.KC_.iStock.PAID_-1200x600.jpg);
+}
+@media only screen and (max-width: 600px) {
+  nav{
+    display: none;
+  }
+}
